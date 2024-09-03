@@ -62,13 +62,15 @@ class JSONFormatter(Formatter):
 
 class TextFormatter(Formatter):
     def format_transcript(self, transcript, **kwargs):
+        file1 = open("transcript.txt", "a")
         """Converts a transcript into plain text with no timestamps.
 
         :param transcript:
         :return: all transcript text lines separated by newline breaks.'
         :rtype str
         """
-        return '\n'.join(line['text'] for line in transcript)
+        file1.write(' '.join(line['text'] for line in transcript))
+        file1.close()
 
     def format_transcripts(self, transcripts, **kwargs):
         """Converts a list of transcripts into plain text with no timestamps.
