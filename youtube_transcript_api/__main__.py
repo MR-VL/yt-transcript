@@ -2,7 +2,7 @@ import sys
 
 import logging
 
-from ._cli import YouTubeTranscriptCli
+from youtube_transcript_api._cli import YouTubeTranscriptCli
 
 
 def main():

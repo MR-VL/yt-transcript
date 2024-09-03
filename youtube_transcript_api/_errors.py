@@ -1,4 +1,4 @@
-from ._settings import WATCH_URL
+from youtube_transcript_api._settings import WATCH_URL
 
 
 class CouldNotRetrieveTranscript(Exception):

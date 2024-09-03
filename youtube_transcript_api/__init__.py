@@ -1,6 +1,6 @@
-from ._api import YouTubeTranscriptApi
-from ._transcripts import TranscriptList, Transcript
-from ._errors import (
+from youtube_transcript_api._api import YouTubeTranscriptApi
+from youtube_transcript_api._transcripts import TranscriptList, Transcript
+from youtube_transcript_api._errors import (
     TranscriptsDisabled,
     NoTranscriptFound,
     CouldNotRetrieveTranscript,

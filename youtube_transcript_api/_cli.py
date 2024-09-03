@@ -1,8 +1,8 @@
 import argparse
 
-from ._api import YouTubeTranscriptApi
+from youtube_transcript_api._api import YouTubeTranscriptApi
 
-from .formatters import FormatterLoader
+from youtube_transcript_api.formatters import FormatterLoader
 
 
 class YouTubeTranscriptCli(object):
